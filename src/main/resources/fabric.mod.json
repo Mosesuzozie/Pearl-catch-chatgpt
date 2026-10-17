@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "pearlcatch",
+  "version": "${version}",
+  "name": "PearlCatch & Auto Swapper",
+  "description": "Pearl catch tracking, side pearl catching and an airborne auto swapper with fast/slow modes, smoothing and auto aim.",
+  "authors": ["Kingmoses777"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.pearlcatch.PearlCatchMod"],
+    "modmenu": ["dev.pearlcatch.gui.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
